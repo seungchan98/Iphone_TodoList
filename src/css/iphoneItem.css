@@ -1,0 +1,45 @@
+.iphoneItem{
+    display: flex;
+    align-items: flex-start;
+    /* padding: 20px; */
+}
+.iphoneItem_sub {
+    position: relative;
+    display: table;
+    max-width: calc(100% - 70px);
+    padding: 10px;
+    margin-top: 7px;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: rgb(70, 139, 247);
+    word-break: break-all;
+    margin-left: 20px;
+}
+.iphoneItem_sub::after {
+    border-top:15px solid rgb(70, 139, 247);
+ border-left: 15px solid transparent;
+ border-right: 0px solid transparent;
+ border-bottom: 0px solid transparent;
+ content:"";
+ position:absolute;
+ top:7px;
+ left:-13px;
+}
+.iphone_delBtn{
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+}
+.iphone_delBtn:hover {
+    cursor: pointer;
+}
+.iphoneTime{
+    margin-left: 2px;
+    color: rgb(148, 148, 148);
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 30px;
+}

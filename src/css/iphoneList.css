@@ -1,0 +1,28 @@
+/* .iphoneList{
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+} */
+.iphoneList {
+    /* display: flex; */
+    align-items: flex-start;
+    /* padding: 10px 20px 10px 25px; */
+    padding: 10px;
+    height: 74vh;
+    /* overflow-y: scroll; */
+}
+/* .iphoneList::-webkit-scrollbar {
+    width: 5px;
+} */
+.scroll{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.scroll::-webkit-scrollbar {
+    width: 5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+    background-color: rgb(50, 50, 50);
+}
